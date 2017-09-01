@@ -29,9 +29,9 @@ dependencies {
     compile(name: 'data-release', ext: 'aar')
     compile(name: 'core-release', ext: 'aar')
     compile(name: 'extensions-release', ext: 'aar')
-    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:7.0.1'
 
-    compile 'com.jakewharton:butterknife:8.8.1'
+    compile 'com.jakewharton:butterknife:7.0.1'
     compile 'com.android.support:appcompat-v7:25.1.0'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.androidplot:androidplot-core:1.5.1'
