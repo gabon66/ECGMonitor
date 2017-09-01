@@ -24,13 +24,14 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    /*compile(name: 'charting-release', ext: 'aar')
+    compile(name: 'charting-release', ext: 'aar')
     compile(name: 'drawing-release', ext: 'aar')
     compile(name: 'data-release', ext: 'aar')
     compile(name: 'core-release', ext: 'aar')
     compile(name: 'extensions-release', ext: 'aar')
-*/
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
 
+    compile 'com.jakewharton:butterknife:8.8.1'
     compile 'com.android.support:appcompat-v7:25.1.0'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.androidplot:androidplot-core:1.5.1'

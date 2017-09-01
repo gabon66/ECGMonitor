@@ -7,5 +7,9 @@
     android:layout_height="match_parent"
     tools:context="com.ecg.monitor.ecg.ECGActivity">
 
+    <com.scichart.charting.visuals.SciChartSurface
+        android:id="@+id/chart"
+        android:layout_width="fill_parent"
+        android:layout_height="275dp" />
 
 </LinearLayout>
