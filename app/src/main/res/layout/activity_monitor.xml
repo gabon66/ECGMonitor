@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.ecg.monitor.ecg.MonitorActivity"
+    android:weightSum="1">
+
+    <com.androidplot.xy.XYPlot
+        android:id="@+id/plot"
+        androidPlot.legendWidget.visible="false"
+        style="@style/APDefacto.Dark"
+        app:title="A Simple XY Plot"
+
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.33"
+        />
+    <com.androidplot.xy.XYPlot
+        style="@style/APDefacto.Dark"
+        android:id="@+id/plot1"
+        app:title="A Simple XY Plot"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.33" />
+
+    <com.androidplot.xy.XYPlot
+        android:id="@+id/plot2"
+        style="@style/APDefacto.Dark"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.33"
+        app:title="A Simple XY Plot" />
+</LinearLayout>
